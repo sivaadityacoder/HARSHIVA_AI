@@ -1,0 +1,73 @@
+# XBOW Web Hunter Configuration
+
+# Tool Configuration
+tools:
+  # Tool executable paths (auto-detected if in PATH)
+  subfinder:
+    path: "subfinder"
+    timeout: 300
+    default_args: ["-all", "-recursive"]
+  
+  nuclei:
+    path: "nuclei"
+    timeout: 600
+    default_args: ["-rate-limit", "10", "-timeout", "5"]
+    passive_templates:
+      - "http/technologies/"
+      - "ssl/"
+      - "dns/"
+  
+  amass:
+    path: "amass"
+    timeout: 900
+    default_args: ["-passive"]
+  
+  httpx:
+    path: "httpx"
+    timeout: 180
+    default_args: ["-rate-limit", "20", "-timeout", "10", "-retries", "2"]
+  
+  ffuf:
+    path: "ffuf"
+    timeout: 300
+    default_args: ["-rate", "10", "-timeout", "10"]
+    # Disabled in passive mode
+    passive_enabled: false
+  
+  waybackurls:
+    path: "waybackurls"
+    timeout: 120
+    default_args: []
+
+# Rate Limiting
+rate_limits:
+  nuclei: 2      # seconds between nuclei executions
+  ffuf: 1        # seconds between ffuf executions
+  default: 0.5   # default delay between tool executions
+
+# Output Configuration
+output:
+  directory: "out"
+  timestamp_format: "%Y%m%d_%H%M%S"
+  preserve_raw: true
+  compress_large_files: false
+
+# LLM Configuration
+llm:
+  context_size: 4096
+  max_tokens: 2048
+  temperature: 0.1
+  timeout: 120
+
+# Safety Configuration
+safety:
+  passive_only_default: true
+  require_authorization: true
+  max_tool_calls: 8
+  max_execution_time: 1800  # 30 minutes
+
+# Logging
+logging:
+  level: "INFO"
+  file: "out/agent.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

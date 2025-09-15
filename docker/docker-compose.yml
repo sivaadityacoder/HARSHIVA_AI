@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  web-hunter:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.agent
+    container_name: xbow-web-hunter
+    volumes:
+      # Mount your local models directory
+      - ./models:/app/models:ro
+      # Mount output directory to persist results
+      - ./out:/app/out
+      # Optional: mount custom config
+      - ./configs:/app/configs:ro
+    environment:
+      # Set this to your model file path
+      - LLM_MODEL_PATH=/app/models/codellama-7b-instruct.Q4_K_M.gguf
+    # Remove the default command to allow passing arguments
+    command: []
+    # Network mode for accessing local targets (use with caution)
+    network_mode: "host"
+    
+  # Optional: Add a web interface service (placeholder)
+  # web-ui:
+  #   build:
+  #     context: ..
+  #     dockerfile: docker/Dockerfile.web
+  #   ports:
+  #     - "8080:8080"
+  #   depends_on:
+  #     - web-hunter
+  #   environment:
+  #     - AGENT_URL=http://web-hunter:8000
+
+# Optional: Create a custom network for isolation
+# networks:
+#   hunter-net:
+#     driver: bridge
+
+# Volumes for persistent data
+volumes:
+  models:
+    driver: local
+  output:
+    driver: local
