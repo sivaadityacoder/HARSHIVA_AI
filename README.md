@@ -5,8 +5,8 @@
 [![Python](https://img.shields.io/badge/Python-3.12+-green)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![Professional](https://img.shields.io/badge/Grade-Professional-red)](HARSHIVA_AI_PRESENTATION.md)
-[![Stars](https://img.shields.io/github/stars/yourusername/harshiva-ai?style=social)](https://github.com/yourusername/harshiva-ai)
-[![Forks](https://img.shields.io/github/forks/yourusername/harshiva-ai?style=social)](https://github.com/yourusername/harshiva-ai/fork)
+[![Stars](https://img.shields.io/github/stars/sivaadityacoder/HARSHIVA_AI?style=social)](https://github.com/sivaadityacoder/HARSHIVA_AI)
+[![Forks](https://img.shields.io/github/forks/sivaadityacoder/HARSHIVA_AI?style=social)](https://github.com/sivaadityacoder/HARSHIVA_AI/fork)
 
 > 🚀 **Star this repository if you find HARSHIVA AI useful!**
 
@@ -231,8 +231,8 @@ harshiva-ai/
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/harshiva-ai.git
-cd harshiva-ai
+git clone https://github.com/sivaadityacoder/HARSHIVA_AI.git
+cd HARSHIVA_AI
 ```
 
 ### **2. Set up Python Environment**
@@ -323,8 +323,8 @@ git push origin feature/your-feature-name
 
 ## **📞 Support & Contact**
 
-- **📧 Issues**: [GitHub Issues](https://github.com/yourusername/harshiva-ai/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/yourusername/harshiva-ai/discussions)
+- **📧 Issues**: [GitHub Issues](https://github.com/sivaadityacoder/HARSHIVA_AI/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/sivaadityacoder/HARSHIVA_AI/discussions)
 - **📚 Documentation**: [HARSHIVA_AI_6_SLIDES.md](HARSHIVA_AI_6_SLIDES.md)
 - **🎥 Demo Video**: Coming soon!
 
