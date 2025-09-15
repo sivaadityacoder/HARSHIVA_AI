@@ -8,19 +8,19 @@
 [![Stars](https://img.shields.io/github/stars/sivaadityacoder/HARSHIVA_AI?style=social)](https://github.com/sivaadityacoder/HARSHIVA_AI)
 [![Forks](https://img.shields.io/github/forks/sivaadityacoder/HARSHIVA_AI?style=social)](https://github.com/sivaadityacoder/HARSHIVA_AI/fork)
 
-> 🚀 **Star this repository if you find HARSHIVA AI useful!**
+>  **Star this repository if you find HARSHIVA AI useful!**
 
 ---
 
-## **🎯 Project Overview**
+## ** Project Overview**
 
 **HARSHIVA AI** is the first cybersecurity platform integrating genuine artificial intelligence for automated vulnerability assessment. This revolutionary tool combines a real Large Language Model (CodeLlama-7B-Instruct) with advanced penetration testing methodologies, achieving **87% accuracy** with human-like strategic thinking.
 
-### **✨ Key Achievements**
-- 🥇 **First** cybersecurity tool with real LLM integration
-- 📊 **87% accuracy** verified through comprehensive testing  
-- 🧠 **Human-like intelligence** with 5 AI personalities
-- 🏆 **Professional quality** industry-standard assessments
+### ** Key Achievements**
+-  **First** cybersecurity tool with real LLM integration
+-  **87% accuracy** verified through comprehensive testing  
+-  **Human-like intelligence** with 5 AI personalities
+-  **Professional quality** industry-standard assessments
 
 ### **📺 Quick Demo**
 ```bash
@@ -120,10 +120,10 @@ python src/harshiva_ai.py target.com
 
 ### **Real-World Testing: testphp.vulnweb.com**
 ```
-⏱️ Assessment Time: 21 minutes
+ Assessment Time: 21 minutes
  Google Dorks: 20 executed  
-🌐 Subdomains Found: 4 (api, admin, dev, staging)
-🚨 Vulnerabilities: 2 HIGH severity
+ Subdomains Found: 4 (api, admin, dev, staging)
+ Vulnerabilities: 2 HIGH severity
  Success Rate: 87% overall accuracy
 ```
 
@@ -227,7 +227,7 @@ harshiva-ai/
 
 ---
 
-## **🚀 Getting Started**
+## ** Getting Started**
 
 ### **1. Clone the Repository**
 ```bash
@@ -260,29 +260,29 @@ python src/harshiva_ai.py example.com
 
 ---
 
-## **⚠️ Important Notes**
+## ** Important Notes**
 
-### **🔒 Ethical Usage**
+### ** Ethical Usage**
 - **Authorized testing only** - Only scan systems you own or have explicit permission to test
 - **Educational purposes** - This tool is designed for learning and authorized security assessments
 - **Responsible disclosure** - Report vulnerabilities responsibly to system owners
 
-### **💾 Model Requirements**
+### ** Model Requirements**
 - The AI model file (4.08 GB) is **not included** in this repository due to size
 - Download separately from HuggingFace as shown in installation steps
 - Ensure you have sufficient disk space and RAM
 
 ---
 
-## **🤝 Contributing**
+## ** Contributing**
 
 We welcome contributions! Here's how you can help:
 
 ### **Ways to Contribute**
-- 🐛 **Bug Reports**: Found an issue? [Open an issue](https://github.com/yourusername/harshiva-ai/issues)
-- 💡 **Feature Requests**: Have an idea? [Request a feature](https://github.com/yourusername/harshiva-ai/issues)
-- 🔧 **Code Contributions**: Submit a [Pull Request](https://github.com/yourusername/harshiva-ai/pulls)
-- 📖 **Documentation**: Improve our docs and examples
+-  **Bug Reports**: Found an issue? [Open an issue](https://github.com/yourusername/harshiva-ai/issues)
+-  **Feature Requests**: Have an idea? [Request a feature](https://github.com/yourusername/harshiva-ai/issues)
+-  **Code Contributions**: Submit a [Pull Request](https://github.com/yourusername/harshiva-ai/pulls)
+-  **Documentation**: Improve our docs and examples
 
 ### **Development Setup**
 ```bash
@@ -303,7 +303,7 @@ git push origin feature/your-feature-name
 
 ---
 
-## **📊 Project Statistics**
+## ** Project Statistics**
 
 - **Lines of Code**: 2,000+ professional Python code
 - **AI Model Size**: 4.08 GB (CodeLlama-7B-Instruct)
@@ -313,7 +313,7 @@ git push origin feature/your-feature-name
 
 ---
 
-## **🔗 Related Projects**
+## ** Related Projects**
 
 - [CodeLlama](https://github.com/facebookresearch/codellama) - Meta's Code Llama model
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) - Traditional security scanner
@@ -321,7 +321,7 @@ git push origin feature/your-feature-name
 
 ---
 
-## **📞 Support & Contact**
+## ** Support & Contact**
 
 - **📧 Issues**: [GitHub Issues](https://github.com/sivaadityacoder/HARSHIVA_AI/issues)
 - **💬 Discussions**: [GitHub Discussions](https://github.com/sivaadityacoder/HARSHIVA_AI/discussions)
@@ -330,18 +330,18 @@ git push origin feature/your-feature-name
 
 ---
 
-## **⭐ Show Your Support**
+## **Show Your Support**
 
 If HARSHIVA AI helped you with your cybersecurity research or learning:
 
-- ⭐ **Star** this repository
-- 🍴 **Fork** it for your own projects  
-- 📢 **Share** it with the community
-- 🐛 **Report issues** or suggest improvements
+-  **Star** this repository
+-  **Fork** it for your own projects  
+-  **Share** it with the community
+-  **Report issues** or suggest improvements
 
 ---
 
-## **📄 License**
+## ** License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
