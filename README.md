@@ -22,7 +22,7 @@
 -  **Human-like intelligence** with 5 AI personalities
 -  **Professional quality** industry-standard assessments
 
-### **📺 Quick Demo**
+### ** Quick Demo**
 ```bash
 # Verify AI is working
 python src/harshiva_ai.py --verify-ai
